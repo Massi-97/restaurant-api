@@ -2,6 +2,7 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import { StockModule } from '../stock.module';
 import * as request from 'supertest';
+import { ConfigModule } from '@nestjs/config';
 
 
 describe('StockController (e2e)', () => {
@@ -9,7 +10,7 @@ describe('StockController (e2e)', () => {
 
   beforeAll(async () => {
     const moduleFixture: TestingModule = await Test.createTestingModule({
-      imports: [StockModule],
+      imports: [StockModule, ConfigModule.forRoot()],
     }).compile();
 
     app = moduleFixture.createNestApplication();

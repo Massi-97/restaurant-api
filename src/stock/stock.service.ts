@@ -38,7 +38,6 @@ export class StockService {
       return results;
     } 
     catch (err) {
-      console.error("Error parsing CSV:", err);
       throw new Error("Failed to parse CSV");
     }
   }

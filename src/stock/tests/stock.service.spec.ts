@@ -32,13 +32,11 @@ describe('StockService', () => {
   });
 
   it('should parse stock data from CSV URL', async () => {
-    const mockData = `IdProduct;stock
-      1;100
-      2;200
-    `;
+    const mockData = `IdProduct;stock\n1;100\n2;200`;
     mockedAxios.get.mockResolvedValue({ data: mockData });
 
     const result = await stockService.parseStockFromCsv();
+
     expect(result).toEqual([
       { idProduct: 1, stock: 100 },
       { idProduct: 2, stock: 200 },
