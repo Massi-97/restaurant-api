@@ -8,7 +8,7 @@
 - Création des DTOs avec validation (class-validator)
 - Ajout des tests unitaires et d'intégration pour le module product
 
-[Unreleased]: 
+[Unreleased]: https://github.com/Massi-97/restaurant-api/commit/3f7a85519ade50740b98f783bb6ac5376dab315e
 
 ## [Unreleased]
 ### Ajouté
