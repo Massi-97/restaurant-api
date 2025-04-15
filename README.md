@@ -70,4 +70,4 @@ Historique des releases: **CHANGELOG.md**
 - `v0.0.1`
 - `v0.1.0`
 - `v0.2.0`
-- `v0.2.1` (🎯 version finale, disponible sur la branche `main`)
+- `v0.2.1` (🎯 version finale)
