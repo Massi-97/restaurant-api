@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.1] - 2025-04-16
+### Added
+- Ajout d'un Dockerfile et d'un docker-compose
+
+### Changed
+- Changement de version pour package.json & documentation API
+
+[0.2.1]: 
+
 ## [0.2.0] - 2025-04-15
 ### Added
 - Intégration des dépendances : cache-manager & swagger.

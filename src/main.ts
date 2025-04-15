@@ -10,7 +10,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Restaurant Card API')
     .setDescription('Retrieves the list of filtered and ordered national products')
-    .setVersion('0.2.0')
+    .setVersion('0.2.1')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);

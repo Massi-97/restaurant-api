@@ -32,6 +32,15 @@ git checkout main
 npm run start
 ```
 
+## 🐳 Lancer le projet avec Docker
+
+```bash
+git clone https://github.com/Massi-97/restaurant-api.git
+cd restaurant-api
+git checkout main
+docker-compose up -d (docker compose up -d avec Docker Compose V2)
+```
+
 ## 🧪 Couverture de tests (Jest)
 
 Les modules `product`, `stock` et `auth` ont été testés avec **Jest**.
@@ -60,4 +69,5 @@ Historique des releases: **CHANGELOG.md**
 
 - `v0.0.1`
 - `v0.1.0`
-- `v0.2.0` (🎯 version finale, disponible sur la branche `main`)
+- `v0.2.0`
+- `v0.2.1` (🎯 version finale, disponible sur la branche `main`)
