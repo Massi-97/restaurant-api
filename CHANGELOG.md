@@ -7,7 +7,7 @@
 ### Changed
 - Changement de version pour package.json & documentation API
 
-[0.2.1]: 
+[0.2.1]: https://github.com/Massi-97/restaurant-api/commit/eaa842d9c72ba917e313c1421a7ba676b08ba0de 
 
 ## [0.2.0] - 2025-04-15
 ### Added
