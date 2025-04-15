@@ -19,8 +19,8 @@ export class ProductController {
     description: 'API key for authentication',
     required: true,
   })
-  @ApiOperation({ summary: 'List of filtered and ordered products' })
-  @ApiResponse({ status: 200, description: 'List of national products filtered and ordered with stocks', type: ProductsListDto })
+  @ApiOperation({ summary: 'List of filtered and ordered national products' })
+  @ApiResponse({ status: 200, description: 'List of filtered and ordered national products with stocks', type: ProductsListDto })
   async getFormattedProducts(@Body() restaurant: RestaurantDto, @Headers('apiKey') apiKey: string): Promise<ProductsListDto> {
     return await this.productService.filteredAndOrderedProducts(restaurant, apiKey);
   }

@@ -11,8 +11,7 @@ export class StockService {
 
   /**
    * Parse un fichier CSV de stock à partir d'une URL distante.
-   *
-   * @returns Une promesse contenant une liste d'objets de type `StockCsvDto`.
+   * @returns {Promise<StockCsvDto[]>} Une promesse contenant une liste d'objets de type `StockCsvDto`.
    * @throws Une erreur si le parsing échoue ou si la récupération du fichier échoue.
    */
   async parseStockFromCsv(): Promise<StockCsvDto[]> {

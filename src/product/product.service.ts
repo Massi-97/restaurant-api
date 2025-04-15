@@ -27,6 +27,7 @@ export class ProductService {
    * @param restaurant Identifiants du restaurant, comprenant le nom d'utilisateur, le code du restaurant et le mot de passe.
    * @param apiKey Clé API pour accéder au Web Service National et récupérer les produits.
    * @returns {Promise<ProductsListDto>} Une promesse renvoyant une liste de produits classés dans deux catégories : standard et featured.
+   * @throws Une erreur si la récupération des produits échoue ou si l'application des règles métiers échoue.
    */
   async filteredAndOrderedProducts(restaurant: RestaurantDto, apiKey: string): Promise<ProductsListDto> {
     const cacheKeyProducts = `products_${restaurant.codeRestaurant}`;
