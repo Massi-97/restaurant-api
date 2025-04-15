@@ -2,9 +2,19 @@
 
 ## [Unreleased]
 ### Ajouté
+- Intégration des dépendances : cache-manager & swagger.
+- Appel API pour la génération du token d'authentification
+- Récupération de la liste des produits filtrés et ordonnés.
+- Création des DTOs avec validation (class-validator)
+- Ajout des tests unitaires et d'intégration pour le module product
+
+[Unreleased]: 
+
+## [Unreleased]
+### Ajouté
 - Intégration des dépendances : @nestjs/config, axios, etc.
 - Parsing du fichier CSV depuis une URL distante
-- Création des DTOs avec validation (class-validator, class-transformer)
+- Création des DTOs avec validation (class-validator)
 - Ajout des tests unitaires et d'intégration pour le module stock
 
 [Unreleased]: https://github.com/Massi-97/restaurant-api/commit/0473dc190a4d3becf9ecae5061a52da337b52251

@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { ProductModule } from 'src/product/product.module';
-import { StockModule } from 'src/stock/stock.module';
+import { ProductModule } from '../product/product.module';
+import { StockModule } from '../stock/stock.module';
 import { ConfigModule } from '@nestjs/config';
 
 @Module({
