@@ -5,7 +5,7 @@
 Développer un web service local permettant de récupérer :
 
 - La liste des produits nationaux disponibles en stock
-- La liste des stocks filtrés et ordonnés selon les règles suivantes :
+- La liste doit être filtrée et ordonnée selon les règles suivantes :
 
 ### 🎯 Règles métier
 
@@ -13,21 +13,15 @@ Développer un web service local permettant de récupérer :
 - Les produits avec une DLC à **J+3** apparaissent dans la catégorie **"produits mis en avant"** et bénéficient d’une **remise de 30%**
 - Les produits sont **ordonnés par prix décroissant**
 
----
-
 ## ✅ Bilan
 
 L’ensemble du POC a été réalisé avec succès.
-
----
 
 ## 📚 Documentation API
 
 Un Swagger est mis en place pour documenter l'API.
 
 👉 Accès : [http://localhost:3000/api](http://localhost:3000/api)
-
----
 
 ## ⚙️ Lancer le projet
 
@@ -49,8 +43,6 @@ Les modules `product`, `stock` et `auth` ont été testés avec **Jest**.
 | Functions          | 66.66%      |
 | Lines              | 75.15%      |
 
----
-
 ## 🎁 Bonus
 
 Une stratégie de **cache** a été mise en place à l’aide de `@nestjs/cache-manager` (v3.0.1) :
@@ -58,11 +50,10 @@ Une stratégie de **cache** a été mise en place à l’aide de `@nestjs/cache-
 - **TTL** (Time To Live) : 1 minute
 - **Max items** : 100 objets en cache
 
----
-
 ## 🗂️ Versioning
 
 Stratégie Git : **Git Flow**
+<br>
 Historique des releases: **CHANGELOG.md**
 
 📦 Trois livrables disponibles sur [GitHub - Releases](https://github.com/Massi-97/restaurant-api/tags) :
