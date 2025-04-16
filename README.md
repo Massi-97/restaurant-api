@@ -1,4 +1,4 @@
-# 📦 API Carte de Restaurant (v0.2.0)
+# 📦 API Carte de Restaurant (v0.2.1)
 
 ## 🚀 Objectif du projet
 
@@ -65,7 +65,7 @@ Stratégie Git : **Git Flow**
 <br>
 Historique des releases: **CHANGELOG.md**
 
-📦 Trois livrables disponibles sur [GitHub - Releases](https://github.com/Massi-97/restaurant-api/tags) :
+📦 Quatre livrables disponibles sur [GitHub - Releases](https://github.com/Massi-97/restaurant-api/tags) :
 
 - `v0.0.1`
 - `v0.1.0`
